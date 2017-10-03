@@ -231,3 +231,20 @@ Valid values
 Any valid file name, or `:stdout` to log to `$stdout`
 
 *Note: Using `:stdout` for the `:log_file` requires [running with `--no-daemonize`](gemstash-start.1.md#options).*
+
+Pid File
+========
+
+`:pid_file`
+
+Indicates the name of the file used to store the gemstash server PID.
+
+Default value
+-------------
+
+`[base path](gemstash-configuration.5.md#base-path)/puma.pid`
+
+Valid values
+------------
+
+Any valid path, or null to use the default value.

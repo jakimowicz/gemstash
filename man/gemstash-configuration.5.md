@@ -226,6 +226,20 @@ Any valid file name, or `:stdout` to log to `$stdout`
 
 *Note: Using `:stdout` for the `:log_file` requires [running with `--no-daemonize`][NO_DAEMONIZE].*
 
+# Pid File
+
+`:pid_file`
+
+Indicates the name of the file used to store the gemstash server PID.
+
+## Default value
+
+`~/.gemstash/puma.pid`
+
+## Valid values
+
+Any valid path, or null to use the default value.
+
 [SETUP]: ./gemstash-setup.1.md
 [SEQUEL]: http://sequel.jeremyevans.net/
 [SEQUEL_CONNECT]: http://sequel.jeremyevans.net/rdoc/files/doc/opening_databases_rdoc.html#label-General+connection+options
